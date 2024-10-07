@@ -1,11 +1,11 @@
-# YouTube to MP3 Discord Bot
+# Discord YouTube to MP3 Bot
 
-This Discord bot allows users to convert YouTube videos to MP3 files. It uses slash commands for easy interaction.
+This Discord bot allows users to convert YouTube videos to MP3 files using simple slash commands.
 
 ## Features
 
 - Convert YouTube videos to MP3 format
-- Easy to use slash commands
+- Easy-to-use slash commands
 - Automatic file cleanup after sending
 
 ## Prerequisites
@@ -18,13 +18,13 @@ This Discord bot allows users to convert YouTube videos to MP3 files. It uses sl
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/youtube-to-mp3-bot.git
-   cd youtube-to-mp3-bot
+   git clone https://github.com/troycallen/disc-yt2mp3.git
+   cd disc-yt2mp3
    ```
 
 2. Install required packages:
    ```
-   pip install discord.py yt-dlp python-dotenv
+   pip install -r requirements.txt
    ```
 
 3. Create a `.env` file in the root directory with the following content:
@@ -37,7 +37,7 @@ This Discord bot allows users to convert YouTube videos to MP3 files. It uses sl
 
 Run the bot:
 ```
-python bot.py
+python main.py
 ```
 
 ## Commands
@@ -49,10 +49,6 @@ python bot.py
 
 - Due to Discord's file size limitations, the bot can only send MP3 files up to 8 MB in size.
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT]
